@@ -8,11 +8,11 @@ import Message from './components/message';
 function App() {
   return (
     <div className="App">
-      <Message/>
-      {/* <Greet name="As" heroName="Superman"/>
-      <p>This is children props</p>
+      {/* <Message/> */}
+      <Greet name="As" heroName="Superman"/>
+      {/* <p>This is children props</p> */
       <Greet name= "Bi" heroName="Spiderman"/>
-      <button>Action</button>
+     /* <button>Action</button>
       <Greet name="Ass"  heroName="Batman"/>
       <Welcome name="As" heroName="Superman"/>
       <Welcome name="Bi" heroName="Spiderman"/>
